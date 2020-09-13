@@ -4,8 +4,8 @@ import sys
 
 from setuptools import setup, find_packages
 
-if sys.version_info.major == 3 and sys.version_info.minor < 3:
-    print('Unfortunately, your python version is not supported!\n Please upgrade at least to python 3.3!')
+if sys.version_info.major == 3 and sys.version_info.minor < 5:
+    print('Unfortunately, your python version is not supported!\n Please upgrade at least to python 3.5!')
     sys.exit(1)
 
 if sys.platform == 'darwin' or sys.platform == 'win32':
